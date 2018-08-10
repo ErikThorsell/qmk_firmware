@@ -13,6 +13,15 @@ Swedish. If you get weird issues (like, most letters work, but not all special
 characters) please make sure your operating system uses a Swedish keyboard
 layout.
 
+
+## Note
+
+The keyboard assumes that the operating system interprets your keyboard as
+Swedish. If you get weird issues (like, most letters work, but not all special
+characters) please make sure your operating system uses a Swedish keyboard
+layout.
+
+
 ## Flashing
 
 ### Ubuntu
@@ -22,6 +31,7 @@ of the repository.
 
 `make ergodox_ez:dvorak_svorak_a5:teensy`
 
+<<<<<<< HEAD
 ### WSL2
 
 1. Download QMK: 
@@ -41,6 +51,13 @@ of the repository.
     `make ergodox_ez:dvorak_svorak_a5`
 
 5. Flash the keyboard in Windows using QMK Toolbox
+=======
+I haven't gotten the above to work on Windows. Instead I use
+[Msys2](https://www.msys2.org/) to compile the .hex-file (`make ergodox_ez:dvorak_svorak_a5`)
+and [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the
+board.
+
+>>>>>>> Fix issue with special characters
 
 ## Changelog
 
@@ -53,6 +70,9 @@ of the repository.
 
 * 2018-08-09
   * Initial release
+* 2018-08-10
+  * Make special characters work in Windows
+  * Add QWERTY layer
 
 ## Author
 Erik Thorsell
