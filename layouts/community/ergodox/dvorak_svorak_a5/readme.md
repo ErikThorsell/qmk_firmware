@@ -35,6 +35,10 @@ board.
 * 2018-08-10
   * Make special characters work in Windows
   * Add QWERTY layer
+* 2020-10-21
+  * Add umlaut (¨)
+  * Add F11 to first layer
+  * Remove some duplicates from the symbol layer
 
 # Author
 Erik Thorsell
